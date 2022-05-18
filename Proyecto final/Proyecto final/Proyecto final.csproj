@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ECBB703C-5D27-4973-BCD3-E9F723EB3270}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_final</RootNamespace>
+    <AssemblyName>Proyecto final</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\QrCode.Net.0.4.0.0\lib\net45\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.Barcode, Version=1.8.3.0, Culture=neutral, PublicKeyToken=4d44dd7196d3c1ac, processorArchitecture=MSIL">
+      <HintPath>packages\MessagingToolkit.1.8.3\lib\net462\MessagingToolkit.Barcode.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.Core, Version=1.8.3.0, Culture=neutral, PublicKeyToken=4d44dd7196d3c1ac, processorArchitecture=MSIL">
+      <HintPath>packages\MessagingToolkit.1.8.3\lib\net462\MessagingToolkit.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.MMS, Version=1.8.3.0, Culture=neutral, PublicKeyToken=4d44dd7196d3c1ac, processorArchitecture=MSIL">
+      <HintPath>packages\MessagingToolkit.1.8.3\lib\net462\MessagingToolkit.MMS.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.Pdu, Version=1.8.3.0, Culture=neutral, PublicKeyToken=4d44dd7196d3c1ac, processorArchitecture=MSIL">
+      <HintPath>packages\MessagingToolkit.1.8.3\lib\net462\MessagingToolkit.Pdu.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdapterGridFormReport.cs" />
+    <Compile Include="AdapterTextBoxReport.cs" />
+    <Compile Include="AdapterTxtReport.cs" />
+    <Compile Include="GenerateGridFormReport.cs" />
+    <Compile Include="GenerateTextBoxReport.cs" />
+    <Compile Include="GenerateTxtReport.cs" />
+    <Compile Include="GridFormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridFormReport.Designer.cs">
+      <DependentUpon>GridFormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterStore.Designer.cs">
+      <DependentUpon>RegisterStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerateQR.cs" />
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportAdmin.cs" />
+    <Compile Include="SelectReportType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectReportType.Designer.cs">
+      <DependentUpon>SelectReportType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Simulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simulation.Designer.cs">
+      <DependentUpon>Simulation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stores.cs" />
+    <Compile Include="TargetReport.cs" />
+    <Compile Include="TextBoxReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextBoxReport.Designer.cs">
+      <DependentUpon>TextBoxReport.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GridFormReport.resx">
+      <DependentUpon>GridFormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegisterStore.resx">
+      <DependentUpon>RegisterStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectReportType.resx">
+      <DependentUpon>SelectReportType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simulation.resx">
+      <DependentUpon>Simulation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextBoxReport.resx">
+      <DependentUpon>TextBoxReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

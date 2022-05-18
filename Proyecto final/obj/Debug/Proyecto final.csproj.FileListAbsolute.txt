@@ -1,0 +1,22 @@
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto final.csproj.AssemblyReference.cache
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto_final.Principal.resources
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto_final.Properties.Resources.resources
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto_final.RegisterStore.resources
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto_final.Simulation.resources
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto_final.TextBoxReport.resources
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto final.csproj.GenerateResource.cache
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto final.csproj.CoreCompileInputs.cache
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Proyecto final.exe.config
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Proyecto final.exe
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Proyecto final.pdb
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Newtonsoft.Json.dll
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\bin\Debug\Newtonsoft.Json.xml
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto final.csproj.CopyComplete
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto final.exe
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto final.pdb
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto_final.GridFormReport.resources
+C:\Users\piqui\Documents\UP\6o semestre\Patrones de Diseño y Arquitectura de Software\Parcial 3\Proyecto final\Proyecto final\obj\Debug\Proyecto_final.SelectReportType.resources

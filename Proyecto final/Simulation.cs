@@ -127,7 +127,7 @@ namespace Proyecto_final
         {
             ReportAdmin.GetInstance().write("Creando pedido e iniciando la ruta de entrega");
             // List<KeyValuePair<float, string>> ganancia = new List<KeyValuePair<float, string>>();
-            valueCollection ganancia = new valueCollection();
+            ConcreteAggregate ganancia = new ConcreteAggregate();
             foreach (Store i in Stores.GetInstance().stores)
             {
                 float g = 0;
@@ -140,7 +140,7 @@ namespace Proyecto_final
 
             //ganancia = ganancia.OrderBy(kvp => kvp.Key).ToList();
             ganancia.ordenar();
-            ganancia.reverce();
+            ganancia.reverse();
             //ganancia = Enumerable.Reverse(ganancia).ToList();
 
             string aux = "";

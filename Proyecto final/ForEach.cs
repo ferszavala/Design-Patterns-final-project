@@ -60,21 +60,20 @@ namespace Proyecto_final
             _posicion = 0;
         }
     }
-    public class valueCollection : Aggregate
+    public class ConcreteAggregate : Aggregate
     {
 
         List<KeyValuePair<float, string>> ganancia;
-        public valueCollection(List<KeyValuePair<float, string>> ganancia)
+        public ConcreteAggregate(List<KeyValuePair<float, string>> ganancia)
         {
             this.ganancia = ganancia;
         }
-        public valueCollection()
+        public ConcreteAggregate()
         {
             this.ganancia = new List<KeyValuePair<float, string>>();
         }
         public void Add(KeyValuePair<float, string> s)
         {
-
             ganancia.Add(s);
         }
         public override IEnumerator GetEnumerator()
@@ -85,7 +84,7 @@ namespace Proyecto_final
         {
             this.ganancia = ganancia.OrderBy(kvp => kvp.Key).ToList();
         }
-        public void reverce()
+        public void reverse()
         {
             this.ganancia = Enumerable.Reverse(ganancia).ToList();
         }
